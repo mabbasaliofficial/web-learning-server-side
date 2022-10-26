@@ -12,10 +12,16 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+app.get("/courses", (req, res) => {
+  res.send(courses);
+});
 
 app.get("/courses/:id", (req, res) => {
   const id = req.params.id;
   const course = details.find((c) => c.id == id);
+  if (!course) {
+    res.send('course nei')
+  }
   res.send(course);
 });
 
