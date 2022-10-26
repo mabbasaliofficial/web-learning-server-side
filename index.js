@@ -7,6 +7,9 @@ const port = process.env.PORT || 5000;
 
 const categories = require('./Data/course.json');
 
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+});
 
 app.get("/categories", (req, res) => {
     res.send(categories);
