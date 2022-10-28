@@ -1,68 +1,337 @@
 [
-    {
-    "id": 1,
-    "title": "Python",
-    "price": 199.9,
-    "description": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly procedural), object-oriented and functional programming. It is often described as a batteries included language due to its comprehensive standard library. Guido van Rossum began working on Python in the late 1980s as a successor to the ABC programming language and first released it in 1991 as Python 0.9.0.[35] Python 2.0 was released in 2000 and introduced new features such as list comprehensions, cycle-detecting garbage collection, reference counting, and Unicode support. Python 3.0, released in 2008, was a major revision that is not completely backward-compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020. Python consistently ranks as one of the most popular programming languages",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
-    "rating": {
-    "rate": 3.9,
-    "count": 120
-    }
-    },
-    {
-    "id": 2,
-    "title": "JavaScript",
-    "price": 189.9,
-    "description": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices. JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[10] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O. JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js. Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-    "rating": {
-    "rate": 4.1,
-    "count": 259
-    }
-    },
-    {
-    "id": 3,
-    "title": "PHP",
-    "price": 179.9,
-    "description": "PHP is a general-purpose scripting language geared toward web development.[5] It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993.[6] The PHP reference implementation is now produced by The PHP Group.[7] PHP originally stood for Personal Home Page,[8] but it now stands for the recursive initialism PHP: Hypertext Preprocessor. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code – which may be any type of data, such as generated HTML or binary image data – would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications[10] and robotic drone control.[11] PHP code can also be directly executed from the command line. The standard PHP interpreter, powered by the Zend Engine, is free software released under the PHP License. PHP has been widely ported and can be deployed on most web servers on a variety of operating systems and platforms. The PHP language evolved without a written formal specification or standard until 2014, with the original implementation acting as the de facto standard which other implementations aimed to follow. Since 2014, work has gone on to create a formal PHP specification. W3Techs reports that, as of October 2022, PHP is used by 74.4% of all the websites whose server-side programming language we know.[14] PHP version 7.4 is the most used version. Support for version 7.3 was dropped on 6 December 2021.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
-    "rating": {
-    "rate": 4.7,
-    "count": 500
-    }
-    },
-    {
-    "id": 4,
-    "title": "JAVA",
-    "price": 169.9,
-    "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA),[17] meaning that compiled Java code can run on all platforms that support Java without the need to recompile.[18] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub,[19][20] particularly for client–server web applications, with a reported 9 million developers. Java was originally developed by James Gosling at Sun Microsystems. It was released in May 1995 as a core component of Sun Microsystems' Java platform. The original and reference implementation Java compilers, virtual machines, and class libraries were originally released by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun had relicensed most of its Java technologies under the GPL-2.0-only license. Oracle offers its own HotSpot Java Virtual Machine, however the official reference implementation is the OpenJDK JVM which is free open-source software and used by most developers and is the default JVM for almost all Linux distributions. As of September 2022, Java 19 is the latest version, while Java 17, 11 and 8 are the current long-term support (LTS) versions.",
-    "image": "https://www.oracle.com/img/tech/cb88-java-logo-001.jpg",
-    "rating": {
-    "rate": 2.1,
-    "count": 430
-    }
-    },
-    {
-    "id": 5,
-    "title": "Kotlin",
-    "price": 159.9,
-    "description": "Kotlin is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library failed verification] but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g., for frontend web applications using React or native code via LLVM (e.g., for native iOS apps sharing business logic with Android apps). Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark. On 7 May 2019, Google announced that the Kotlin programming language is now its preferred language for Android app developers. Since the release of Android Studio 3.0 in October 2017, Kotlin has been included as an alternative to the standard Java compiler. The Android Kotlin compiler produces Java 8 bytecode by default (which runs in any later JVM), but lets the programmer choose to target Java 9 up to 18, for optimization,[8] or allows for more features; has bidirectional record class interoperability support for JVM, introduced in Java 16, considered stable as of Kotlin 1.5.Kotlin has support for the web; by compiling to JavaScript (i.e., Kotlin/JS with the classic back-end, is declared stable since version 1.3), while the newer Kotlin/JS (IR-based) is in beta as of version 1.5.30. Kotlin/Native (for e.g. Apple silicon support) is considered beta since version 1.3.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Kotlin_Icon_2021.svg/1024px-Kotlin_Icon_2021.svg.png",
-    "rating": {
-    "rate": 4.6,
-    "count": 400
-    }
-    },
-    {
-    "id": 6,
-    "title": "C++",
-    "price": 149.9,
-    "description": "C++ (pronounced C plus plus) is a high-level general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or C with Classes. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.[11] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[11] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes). C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20).[13] The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization.[14] Since 2012, C++ has been on a three-year release schedule[15] with C++23 as the next planned standard.[16]",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/640px-ISO_C%2B%2B_Logo.svg.png",
-    "rating": {
-    "rate": 3.9,
-    "count": 70
-    }
-    }
-    ]
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6a",
+    "course_id": "01",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 488,
+    "title": "Intro of Python",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png",
+    "details": "Move beyond your understanding of the basics of the Python programming language. In this self-paced course, you’ll have the opportunity to actually use Python programming to learn the essentials of data science. Have you taken ELA270 Introduction to Python Programming for Chemical Engineers? Or, have you gained some basic knowledge of Python programming on your own? Either way, you have the basic knowledge of Python you need to take this self-paced course and learn data science Gain an introduction to data science by completing hands-on exercises with Python  Chemical engineers are dealing with more and more complex data. This 12-leasson course will help you keep pace by introducing you to the core areas of data science. You’ll build your confidence by completing a variety of hands-on exercises using Python along with a Temperature Control (TC) Kit (available for purchase). You’ll engage in e-learning content and practice what you learn through activities using Jupyter Notebook and by answering review questions.  And, you can get more help with a lesson if you need it by taking a video walk through it.  At the end of the course, you’ll complete a final project to demonstrate your learning, take a final quiz and earn a final grade.  Leave ready to take the knowledge you’ve gained and put it to use as you advance deeper into the world of data science. What you’ll learn: An introduction to data science using Python How to use Python to complete a project with a Temperature Control Kit How to apply Python to activities using Jupyter Notebook The relationship between Python and data science If you have some experience with Python already, you may consider taking ELA270: Introduction to Python for Chemical Engineers and ELA272: Process Dynamics and Control with Python"
+  },
+  {
+    "_id": "f69a695f037cd9484cecaea37ca71011",
+    "course_id": "01",
+    "rating": { "number": 4.8, "badge": "Excellent" },
+    "total_view": 400,
+    "title": "Intermediate Python",
+    "image_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--01Pcz1zB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/juouwjd3135nzqsvy3wv.jpg",
+    "details": "In this article, we will cover the main differences between Python 2 and 3, which one is the best, and which one you should go for to start your data science journey If you are considering breaking into data science, you will probably have heard about Python. Python is an open-source, general-purpose programming language with broad applicability in data science and other software domains, like web and game development, cybersecurity, and blockchain. The popularity of Python has boomed in recent years. It ranks first in various programming language popularity indices, including the TIOBE Index and the PYPL Index. You can learn more about what Python is used for in a separate article. Due to its simple and readable syntax, Python is often cited as one of the easiest programming languages to learn for new coders. If you are new to data science and don’t know which language to learn first, Python is one of the best options. You can start your data science journey now by taking Data Scientist with Python career track at DataCamp. Yet, things can get a bit confusing. You may also have heard about Python 2 and 3. What is this? Isn’t there one single Python programming language? Which one should you learn? No need to stress: except for special circumstances, by now, you will always use Python 3. In any case, it’s always good to know the differences. In the following sections, we will explain what Python 2 and 3 are, the main differences between them, and which is the most preferable to learn and use. "
+  },
+  {
+    "_id": "11468ed61aee84de492a8b04158a22f0",
+    "course_id": "01",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 980,
+    "title": "Advanced Python",
+    "image_url": "https://www.freecodecamp.org/news/content/images/2021/08/chris-ried-ieic5Tq8YMk-unsplash.jpg",
+    "details": "Python was developed in the late 1980s by Guido van Rossum and made public for the first time in 1991. After nine years of development and increased popularity, Python 2.0 was released in 2000. Python 2 came with a brand new technical specification called Python Enhancement Proposal (PEP), which aimed at providing guidelines and best practices for writing Python code. It also comes with new features, such as list comprehension, Unicode support, and a cycle-detecting garbage collector. But the most important change in Python 2 was to the development process itself. Python was conceived as a programming language that is easy to learn for beginners. To achieve this goal, the team responsible for developing Python –with Guido ban Rossum on top–decided to shift to a more transparent and community-backed development process. Python 2 continued to develop over time. Successive versions added new functionality to the programming language. The last version of Python 2, released in 2010, was Python 2.7. The support for this version ended on January 1, 2020. "
+  },
+  {
+    "_id": "7c4dfea0fafddc813673282a428429b7",
+    "course_id": "01",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 0,
+    "title": "Python crash course",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Python.svg/1200px-Python.svg.png",
+    "details": "Python 3 is the next generation of the programming language. It was released in December 2008, along with several improvements and new features. Python 3 was not just another version of Python 2 code after debugging. The new version drastically changed the language to address security issues and design flaws in previous versions. Python 3 came with a new syntax intended to prevent redundant or repetitive code, that is, code that does the same task in different ways. By providing a single, clear way of doing things, the ease of use and readability of Python 3 has improved considerably. Some of the major changes in Python 3 include changing the print declaration to a built-in function, improved integer division, and improved Unicode support. The nature of these changes is such that Python 3 was incompatible with Python 2, in other words, it is backwards incompatible."
+  },
+  {
+    "_id": "30af81e91ab3eafc0bcae0de62f55d5c",
+    "course_id": "01",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 320,
+    "title": "Easy way to Python",
+    "image_url": "https://opensource.com/sites/default/files/lead-images/python_programming_question.png",
+    "details": "Evolution is a vital feature of every programming language. Languages evolve over time to improve performance and stay relevant to users. The move from Python 2 to 3 has been the biggest change in the history of Python. While it makes sense for companies and developers to eventually migrate their codebase to Python 3 –especially after the end of support for Python 2–, porting code from an older to a newer version can be a difficult and intimidating process. This is particularly acute in Python since many Python 2 libraries are not forward-compatible. Fortunately, there are some resources that can help convert Python 2 code to Python3. 2to3: A Python program that takes Python 2.x source code and applies a series of fixers to transform it into valid Python 3.x code. Python-Future: Allows you to use a single, clean Python 3.x-compatible codebase to support both Python 2 and Python 3 with minimal overhead. Six: A Python 2 and 3 compatibility library. It provides utility functions for smoothing over the differences between the Python versions with the goal of writing Python code that is compatible with both Python versions."
+  },
+  {
+    "_id": "be44c843d61859cc0b87cae85c55f9db",
+    "course_id": "01",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 231,
+    "title": "Best Programming",
+    "image_url": "https://assets.entrepreneur.com/content/3x2/2000/1629213968-Ent-Python.jpg?crop=4:3",
+    "details": "While this was a debating question some years ago, today, there is no doubt Python 3 is a better choice. First, Python 2 is no longer supported since 2020. So it makes sense for new projects to be written in Python 3.x. Second, since Python 2 is no longer supported, all the developments lie on the Python 3 side. The language has experienced constant improvements following every new  upgrade (the most recent version is Python 3.10.5, and there is already a beta version of Python 3.11 with important new features). Given this context, the massive adoption of Python 3 comes with no surprise. According to the 2021 Python Developers Survey 2021, conducted by JetBrains, on average, the share of Python developers using Python 3 was 95%. Further, the share of Python 2 users decreases by 5 percentage points each year."
+  },
+  {
+    "_id": "f69a695f037cd9484cecaea37ca71012",
+    "course_id": "02",
+    "rating": { "number": 4.3, "badge": "Excellent" },
+    "total_view": 400,
+    "title": "Intro of JavaScript",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/JavaScript_screenshot.png",
+    "details": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on users' devices. JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[10] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O. JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. The most popular runtime system for this usage is Node.js. Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design."
+  },
+  {
+    "_id": "2e78e5e0310c2e9adbb6efb1a263e745",
+    "course_id": "02",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": null,
+    "title": "Basic JavaScript",
+    "image_url": "https://images.ctfassets.net/yr4qj72ki4ky/legacyBlogPost77Thumbnail/cd4783ad7b35efc4367166a570a9952e/bigstock-Real-Java-Script-Code-Developi-217215433.jpg?q=72",
+    "details": "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript. This section is dedicated to the JavaScript language itself, and not the parts that are specific to Web pages or other host environments. For information about APIs that are specific to Web pages, please see Web APIs and DOM. The standards for JavaScript are the ECMAScript Language Specification (ECMA-262) and the ECMAScript Internationalization API specification (ECMA-402). As soon as one browser implements a feature, we try to document it. This means that cases where some proposals for new ECMAScript features have already been implemented in browsers, documentation and examples in MDN articles may use some of those new features. Most of the time, this happens between the stages 3 and 4, and is usually before the spec is officially published. Do not confuse JavaScript with the Java programming language. Both Java and JavaScript are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have very different syntax, semantics, and use."
+  },
+  {
+    "_id": "cd2b53655737cc4077542baea9f8f75d",
+    "course_id": "02",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 700,
+    "title": "Easy way to JavaScript",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3ov-LUHdZF6TJCF0shjLgcgbSFNUJ3G9Q3PHiJjEKtq8lq69M2GaRvjBD7pV-sU5W3U&usqp=CAU",
+    "details": "JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.Why to Learn Javascript Javascript is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning Javascript: Javascript is the most popular programming language in the world and that makes it a programmer’s great choice. Once you learnt Javascript, it helps you developing great front-end as well as back-end softwares using different Javascript based frameworks like jQuery, Node.JS etc. Javascript is everywhere, it comes installed on every modern web browser and so to learn Javascript you really do not need any special environment setup. For example Chrome, Mozilla Firefox , Safari and every browser you know as of today, supports Javascript.Javascript helps you create really beautiful and crazy fast websites. You can develop your website with a console like look and feel and give your users the best Graphical User Experience. JavaScript usage has now extended to mobile app development, desktop app development, and game development. This opens many opportunities for you as Javascript Programmer. Due to high demand, there is tons of job growth and high pay for those who know JavaScript. You can navigate over to different job sites to see what having JavaScript skills looks like in the job market. Great thing about Javascript is that you will find tons of frameworks and Libraries already developed which can be used directly in your software development to reduce your time to market.There could be 1000s of good reasons to learn Javascript Programming. But one thing for sure, to learn any programming language, not only Javascript, you just need to code, and code and finally code until you become expert."
+  },
+
+  {
+    "_id": "df11ff9feefc37613cc3a4486ce02151",
+    "course_id": "02",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 552,
+    "title": "JavaScript crash course",
+    "image_url": "https://static.javatpoint.com/images/javascript/javascript_logo.png",
+    "details": "The first web browser with a graphical user interface, Mosaic, was released in 1993. Accessible to non-technical people, it played a prominent role in the rapid growth of the nascent World Wide Web.[11] The lead developers of Mosaic then founded the Netscape corporation, which released a more polished browser, Netscape Navigator, in 1994. This quickly became the most-used. During these formative years of the Web, web pages could only be static, lacking the capability for dynamic behavior after the page was loaded in the browser. There was a desire in the flourishing web development scene to remove this limitation, so in 1995, Netscape decided to add a scripting language to Navigator. They pursued two routes to achieve this: collaborating with Sun Microsystems to embed the Java programming language, while also hiring Brendan Eich to embed the Scheme language. Netscape management soon decided that the best option was for Eich to devise a new language, with syntax similar to Java and less like Scheme or other extant scripting languages.[5][6] Although the new language and its interpreter implementation were called LiveScript when first shipped as part of a Navigator beta in September 1995, the name was changed to JavaScript for the official release in December. The choice of the JavaScript name has caused confusion, implying that it is directly related to Java. At the time, the dot-com boom had begun and Java was the hot new language, so Eich considered the JavaScript name a marketing ploy by Netscape."
+  },
+  {
+    "_id": "1b03149c50f1bec662062d930bf46489",
+    "course_id": "02",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 546,
+    "title": "Best Programming",
+    "image_url": "https://www.thoughtco.com/thmb/_P_IpRezcdFY2uZZNjKtLpyj2zA=/1500x1000/filters:fill(auto,1)/JavaScript-58acbb8a3df78c345bad32c2.jpg",
+    "details": "During the period of Internet Explorer dominance in the early 2000s, client-side scripting was stagnant. This started to change in 2004, when the successor of Netscape, Mozilla, released the Firefox browser. Firefox was well received by many, taking significant market share from Internet Explorer. In 2005, Mozilla joined ECMA International, and work started on the ECMAScript for XML (E4X) standard. This led to Mozilla working jointly with Macromedia (later acquired by Adobe Systems), who were implementing E4X in their ActionScript 3 language, which was based on an ECMAScript 4 draft. The goal became standardizing ActionScript 3 as the new ECMAScript 4. To this end, Adobe Systems released the Tamarin implementation as an open source project. However, Tamarin and ActionScript 3 were too different from established client-side scripting, and without cooperation from Microsoft, ECMAScript 4 never reached fruition. Meanwhile, very important developments were occurring in open-source communities not affiliated with ECMA work. In 2005, Jesse James Garrett released a white paper in which he coined the term Ajax and described a set of technologies, of which JavaScript was the backbone, to create web applications where data can be loaded in the background, avoiding the need for full page reloads. This sparked a renaissance period of JavaScript, spearheaded by open-source libraries and the communities that formed around them. Many new libraries were created, including jQuery, Prototype, Dojo Toolkit, and MooTools. Google debuted its Chrome browser in 2008, with the V8 JavaScript engine that was faster than its competition.[22][23] The key innovation was just-in-time compilation (JIT),[24] so other browser vendors needed to overhaul their engines for JIT. In July 2008, these disparate parties came together for a conference in Oslo. This led to the eventual agreement in early 2009 to combine all relevant work and drive the language forward. The result was the ECMAScript 5 standard, released in December 2009."
+  },
+  {
+    "_id": "1b03149c50f1bec662062d930bf46489",
+    "course_id": "02",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 546,
+    "title": "Happy Learning",
+    "image_url": "https://learnbatta.com/assets/images/javascript/javascript-logo.png",
+    "details": "JavaScript typically relies on a run-time environment (e.g., a web browser) to provide objects and methods by which scripts can interact with the environment (e.g., a web page DOM). These environments are single-threaded. JavaScript also relies on the run-time environment to provide the ability to include/import scripts (e.g., HTML <script> elements). This is not a language feature per se, but it is common in most JavaScript implementations. JavaScript processes messages from a queue one at a time. JavaScript calls a function associated with each new message, creating a call stack frame with the function's arguments and local variables. The call stack shrinks and grows based on the function's needs. When the call stack is empty upon function completion, JavaScript proceeds to the next message in the queue. This is called the event loop, described as run to completion because each message is fully processed before the next message is considered. However, the language's concurrency model describes the event loop as non-blocking: program input/output is performed using events and callback functions. This means, for instance, that JavaScript can process a mouse click while waiting for a database query to return information"
+  },
+
+  {
+    "_id": "0282e0e58a5c404fbd15261f11c2ab6b",
+    "course_id": "03",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 488,
+    "title": "Intro of PHP",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/640px-PHP-logo.svg.png",
+    "details": "PHP (recursive acronym for PHP: Hypertext Preprocessor) is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. Nice, but what does that mean? An example. Instead of lots of commands to output HTML (as seen in C or Perl), PHP pages contain HTML with embedded code that does something in this case, output Hi, I'm a PHP script!. The PHP code is enclosed in special start and end processing instructions <?php and ?> that allow you to jump into and out of PHP mode. What distinguishes PHP from something like client-side JavaScript is that the code is executed on the server, generating HTML which is then sent to the client. The client would receive the results of running that script, but would not know what the underlying code was. You can even configure your web server to process all your HTML files with PHP, and then there's really no way that users can tell what you have up your sleeve. The best part about using PHP is that it is extremely simple for a newcomer, but offers many advanced features for a professional programmer. Don't be afraid to read the long list of PHP's features. You can jump in, in a short time, and start writing simple scripts in a few hours. Although PHP's development is focused on server-side scripting, you can do much more with it. Read on, and see more in the What can PHP do? section, or go right to the introductory tutorial if you are only interested in web programming."
+  },
+
+  {
+    "_id": "11468ed61aee84de492a8b04158a22f9",
+    "course_id": "03",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 980,
+    "title": "Basic PHP",
+    "image_url": "https://www.netsolutions.com/insights/wp-content/uploads/2021/01/What-is-PHP.jpg",
+    "details": "PHP is a general-purpose scripting language geared toward web development.[5] It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993.[6] The PHP reference implementation is now produced by The PHP Group.[7] PHP originally stood for Personal Home Page,  but it now stands for the recursive initialism PHP: Hypertext Preprocessor. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code – which may be any type of data, such as generated HTML or binary image data – would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response. Additionally, PHP can be used for many programming tasks outside the web context, such as standalone graphical applications[10] and robotic drone control.[11] PHP code can also be directly executed from the command line. The standard PHP interpreter, powered by the Zend Engine, is free software released under the PHP License. PHP has been widely ported and can be deployed on most web servers on a variety of operating systems and platforms. The PHP language evolved without a written formal specification or standard until 2014, with the original implementation acting as the de facto standard which other implementations aimed to follow. Since 2014, work has gone on to create a formal PHP specification. W3Techs reports that, as of October 2022, PHP is used by 74.4% of all the websites whose server-side programming language we know.[14] PHP version 7.4 is the most used version. Support for version 7.3 was dropped on 6 December 2021."
+  },
+
+  {
+    "_id": "a713ee936ff5574273f0f769f5c5b20e",
+    "course_id": "03",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 111,
+    "title": "Easy way to PHP learning",
+    "image_url": "https://www.nrhosting.com/wp-content/uploads/2021/01/Full-Form-of-PHP.png",
+    "details": "The PHP Hypertext Preprocessor (PHP) is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications. This tutorial helps you to build your base with PHP. Why to Learn PHP? PHP started out as a small open source project that evolved as more and more people found out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994. PHP is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning PHP: PHP is a recursive acronym for PHP: Hypertext Preprocessor. PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites. It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server. PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time. PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for the first time. PHP is forgiving: PHP language tries to be as forgiving as possible. PHP Syntax is C-Like."
+  },
+
+
+  {
+    "_id": "acb9b6785b62698fc6130db7615965e1",
+    "course_id": "03",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 879,
+    "title": "PHP crash course",
+    "image_url": "https://kinsta.com/wp-content/uploads/2020/03/php-tutorials.png",
+    "details": "PHP is a server scripting language used for making dynamic web pages. That means PHP allows you to use scripts on a web server to produce a response customized for each client’s (user’s) request. PHP is the foundation of: Many CMS (WordPress, Drupal, Joomla) E-Commerce Platforms (WooCommerce, Magento)  Web Development Frameworks (Laravel, CakePHP, Symfony)"
+  },
+
+  {
+    "_id": "7f5b80c1cdd4df0111918883eae07349",
+    "course_id": "03",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 1870,
+    "title": "Best Programming",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYlC9coY7UOOE5O3Qvn7EKLBSvT4gzzUzqw&usqp=CAU",
+    "details": "PHP received mixed reviews due to lacking native Unicode support at the core language level.[38][39] In 2005, a project headed by Andrei Zmievski was initiated to bring native Unicode support throughout PHP, by embedding the International Components for Unicode (ICU) library, and representing text strings as UTF-16 internally.[40] Since this would cause major changes both to the internals of the language and to user code, it was planned to release this as version 6.0 of the language, along with other major features then in development. However, a shortage of developers who understood the necessary changes, and performance problems arising from conversion to and from UTF-16, which is rarely used in a web context, led to delays in the project.[42] As a result, a PHP 5.3 release was created in 2009, with many non-Unicode features back-ported from PHP 6, notably namespaces. In March 2010, the project in its current form was officially abandoned, and a PHP 5.4 release was prepared containing most remaining non-Unicode features from PHP 6, such as traits and closure re-binding.[43] Initial hopes were that a new plan would be formed for Unicode integration, but by 2014 none had been adopted."
+  },
+  {
+    "_id": "7f5b80c1cdd4df0111918883eae07349",
+    "course_id": "03",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 1870,
+    "title": "Happy Learning",
+    "image_url": "https://www.freecodecamp.org/news/content/images/2022/05/PHP.jpg",
+    "details": "The mascot of the PHP project is the elePHPant, a blue elephant with the PHP logo on its side, designed by Vincent Pontier[180] in 1998.[181] The (PHP) letters were forming the shape of an elephant if viewed in a sideways angle. The elePHPant is sometimes differently colored when in plush toy form.Many variations of this mascot have been made over the years. Only the elePHPants based on the original design by Vincent Pontier are considered official by the community.[183] These are collectible and some of them are extremely rare."
+  },
+
+  {
+    "_id": "e342b6c0c8efc8ca9e811991dc8a7900",
+    "course_id": "04",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 733,
+    "title": "Intro of Java",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+    "details": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA),[17] meaning that compiled Java code can run on all platforms that support Java without the need to recompile.[18] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub,[19][20] particularly for client–server web applications, with a reported 9 million developers.[21] Java was originally developed by James Gosling at Sun Microsystems. It was released in May 1995 as a core component of Sun Microsystems' Java platform. The original and reference implementation Java compilers, virtual machines, and class libraries were originally released by Sun under proprietary licenses. As of May 2007, in compliance with the specifications of the Java Community Process, Sun had relicensed most of its Java technologies under the GPL-2.0-only license. Oracle offers its own HotSpot Java Virtual Machine, however the official reference implementation is the OpenJDK JVM which is free open-source software and used by most developers and is the default JVM for almost all Linux distributions. As of September 2022, Java 19 is the latest version, while Java 17, 11 and 8 are the current long-term support (LTS) versions."
+  },
+  {
+    "_id": "e342b6c0c8efc8ca9e811991dc8a7901",
+    "course_id": "04",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 733,
+    "title": "Basic Java",
+    "image_url": "https://www.edureka.co/blog/wp-content/uploads/2018/01/3-2.png",
+    "details": "Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java. It is used for: Mobile applications (specially Android apps) Desktop applications Web applications Web servers and application servers Games Database connection And much, much more! Why Use Java? Java works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.) It is one of the most popular programming language in the world It has a large demand in the current job market It is easy to learn and simple to use It is open-source and free  It is secure, fast and powerful It has a huge community support (tens of millions of developers) Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa Get Started It is not necessary to have any prior programming experience."
+  },
+{
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f7",
+    "course_id": "04",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "“Best Programming",
+    "image_url": "https://www.jrebel.com/sites/default/files/image/2020-05/image-blog-revel-top-java-tools.jpg",
+    "details": "The origins of the name Java are not clear. One possibility is that the island was named after the jáwa-wut plant, which was said to be common in the island during the time, and that prior to Indianization the island had different names.[5] There are other possible sources: the word jaú and its variations mean beyond or distant.[6] And, in Sanskrit yava means barley, a plant for which the island was famous.[6] Yavadvipa is mentioned in India's earliest epic, the Ramayana. Sugriva, the chief of Rama's army, dispatched his men to Yavadvipa, the island of Java, in search of Sita.[7] It was hence referred to in India by the Sanskrit name yāvaka dvīpa (dvīpa = island). Java is mentioned in the ancient Tamil text Manimekalai by Chithalai Chathanar which states that Java had a kingdom with a capital called Nagapuram.[8][9][10] Another source states that the word Java is derived from a Proto-Austronesian root word, meaning home.[11] The great island of Iabadiu or Jabadiu was mentioned in Ptolemy's Geographia composed around 150 CE in the Roman Empire. Iabadiu is said to mean barley island, to be rich in gold, and have a silver town called Argyra at the west end. The name indicates Java[12] and seems to be derived from the Sanskrit name Java-dvipa (Yavadvipa)."
+  },
+{
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f7",
+    "course_id": "04",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Happy Learning",
+    "image_url": "https://dev.java/assets/images/java-logo-vert-blk.png",
+    "details": "As of September 2021, Java 8, 11 and 17 are supported as Long-Term Support (LTS) versions. Oracle released the last zero-cost public update for the legacy version Java 8 LTS in January 2019 for commercial use, although it will otherwise still support Java 8 with public updates for personal use indefinitely. Other vendors have begun to offer zero-cost builds of OpenJDK 18 and 8, 11 and 17 that are still receiving security and other upgrades. Major release versions of Java, along with their release dates:"
+  },
+{
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f7",
+    "course_id": "04",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Java crash course",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOTGSx7aqcGLD2asYFF2f6DHDNPT7rL2dMwAp4AfkTpjayjNyFQD0YODpu5_yTQZ2E-A&usqp=CAU",
+    "details": "In 1997, Sun Microsystems approached the ISO/IEC JTC 1 standards body and later the Ecma International to formalize Java, but it soon withdrew from the process.[28][29][30] Java remains a de facto standard, controlled through the Java Community Process.[31] At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.  On November 13, 2006, Sun released much of its Java virtual machine (JVM) as free and open-source software (FOSS), under the terms of the GPL-2.0-only license. On May 8, 2007, Sun finished the process, making all of its JVM's core code available under free software/open-source distribution terms, aside from a small portion of code to which Sun did not hold the copyright."
+  },
+{
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f7",
+    "course_id": "04",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Advanced Java",
+    "image_url": "https://www.itprotoday.com/sites/itprotoday.com/files/Java_0.jpg",
+    "details": "One design goal of Java is portability, which means that programs written for the Java platform must run similarly on any combination of hardware and operating system with adequate run time support. This is achieved by compiling the Java language code to an intermediate representation called Java bytecode, instead of directly to architecture-specific machine code. Java bytecode instructions are analogous to machine code, but they are intended to be executed by a virtual machine (VM) written specifically for the host hardware. End-users commonly use a Java Runtime Environment (JRE) installed on their device for standalone Java applications or a web browser for Java applets.Standard libraries provide a generic way to access host-specific features such as graphics, threading, and networking.The use of universal bytecode makes porting simple. However, the overhead of interpreting bytecode into machine instructions made interpreted programs almost always run more slowly than native executables. Just-in-time (JIT) compilers that compile byte-codes to machine code during runtime were introduced from an early stage. Java's Hotspot compiler is actually two compilers in one; and with GraalVM (included in e.g. Java 11, but removed as of Java 16) allowing tiered compilation.[47] Java itself is platform-independent and is adapted to the particular platform it is to run on by a Java virtual machine (JVM) for it, which translates the Java bytecode into the platform's machine language."
+  },
+
+  {
+    "_id": "f06f8cc035b04bd1158e4198281915a3",
+    "course_id": "05",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 127,
+    "title": "Intro of Kotlin",
+    "image_url": "https://www.jrebel.com/sites/default/files/image/2021-01/what%20is%20kotlin%20banner%20image.png",
+    "details": "Kotlin (/ˈkɒtlɪn/)[2] is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library,[3][failed verification] but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g., for frontend web applications using React[4]) or native code via LLVM (e.g., for native iOS apps sharing business logic with Android apps).[5] Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.[6] On 7 May 2019, Google announced that the Kotlin programming language is now its preferred language for Android app developers.[7] Since the release of Android Studio 3.0 in October 2017, Kotlin has been included as an alternative to the standard Java compiler. The Android Kotlin compiler produces Java 8 bytecode by default (which runs in any later JVM), but lets the programmer choose to target Java 9 up to 18, for optimization,[8] or allows for more features; has bidirectional record class interoperability support for JVM, introduced in Java 16, considered stable as of Kotlin 1.5. Kotlin has support for the web; by compiling to JavaScript (i.e., Kotlin/JS with the classic back-end, is declared stable since version 1.3), while the newer Kotlin/JS (IR-based) is in beta as of version 1.5.30. Kotlin/Native (for e.g. Apple silicon support) is considered beta since version 1.3"
+  },
+  {
+    "_id": "f06f8cc035b04bd1158e4198281915a4",
+    "course_id": "05",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 127,
+    "title": "Basic Kotlin",
+    "image_url": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)#/media/File:Kotlin_logo_2021.svg",
+    "details": "Development lead Andrey Breslav has said that Kotlin is designed to be an industrial-strength object-oriented language, and a better language than Java, but still be fully interoperable with Java code, allowing companies to make a gradual migration from Java to Kotlin. Semicolons are optional as a statement terminator; in most cases a newline is sufficient for the compiler to deduce that the statement has ended. Kotlin variable declarations and parameter lists have the data type come after the variable name (and with a colon separator), similar to Ada, BASIC, Pascal, TypeScript and Rust. This, according to an article from Roman Elizarov, current project lead, results in alignment of variable names and is more pleasing to eyes especially when there are a few variable declarations in succession and one or more of the types is too complex for type inference or needs to be declared explicitly for human readers to understand. Variables in Kotlin can be read-only, declared with the val keyword, or mutable, declared with the var keyword. Class members are public by default, and classes themselves are final by default, meaning that creating a derived class is disabled unless the base class is declared with the open keyword. In addition to the classes and member functions (which are equivalent to methods) of object-oriented programming, Kotlin also supports procedural programming with the use of functions.[30] Kotlin functions and constructors support default arguments, variable-length argument lists, named arguments and overloading by unique signature. Class member functions are virtual, i.e. dispatched based on the runtime type of the object they are called on. Kotlin 1.3 added support for contracts,[31] which are stable for the standard library declarations, but still experimental for user-defined declarations. Contracts are inspired by Eiffel's design by contract[32] programming paradigm. According to Kotlin developers, you can call JavaScript code from Kotlin, e.g. write full, type-safe React applications, or write and maintain full-stack web applications sharing validation logic with the frontend, or you can generate libraries from your Kotlin code that can be consumed as modules from any code base written in JavaScript or TypeScript"
+  },
+
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "05",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Best Programming",
+    "image_url": "https://cdn.plainconcepts.com/wp-content/uploads/2022/03/Kotlin.jpg",
+    "details": "When Kotlin was announced as an official Android development language at Google I/O in May 2017, it became the third language fully supported for Android, in addition to Java and C++.[46] As of 2020, Kotlin is still most widely used on Android, with Google estimating that 70% of the top 1000 apps on the Play Store are written in Kotlin. Google itself has 60 apps written in Kotlin, including Maps and Drive. Many Android apps, such as Google's Home, are in the process of being migrated to Kotlin, and so use both Kotlin and Java. Kotlin on Android is seen as beneficial for its null-pointer safety as well as for its features that make for shorter, more readable code. In addition to its prominent use on Android, Kotlin is gaining traction in server-side development. The Spring Framework officially added Kotlin support with version 5 on 4 January 2017.[48] To further support Kotlin, Spring has translated all its documentation to Kotlin and added built-in support for many Kotlin-specific features such as coroutines.[49] In addition to Spring, JetBrains has produced a Kotlin-first framework called Ktor for building web applications. In 2020, JetBrains found in a survey of developers who use Kotlin that 56% were using Kotlin for mobile apps, while 47% were using it for a web back-end. Just over a third of all Kotlin developers said that they were migrating to Kotlin from another language. Most Kotlin users were targeting Android (or otherwise on the JVM), with only 6% using Kotlin Native"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "05",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Intermediate Kotlin",
+    "image_url": "https://www.udacity.com/blog/wp-content/uploads/2018/05/Kotlin-Udacity-Google.png",
+    "details": "In addition to its prominent use on Android, Kotlin is gaining traction in server-side development. The Spring Framework officially added Kotlin support with version 5 on 4 January 2017.[48] To further support Kotlin, Spring has translated all its documentation to Kotlin and added built-in support for many Kotlin-specific features such as coroutines.[49] In addition to Spring, JetBrains has produced a Kotlin-first framework called Ktor for building web applications. In 2020, JetBrains found in a survey of developers who use Kotlin that 56% were using Kotlin for mobile apps, while 47% were using it for a web back-end. Just over a third of all Kotlin developers said that they were migrating to Kotlin from another language. Most Kotlin users were targeting Android (or otherwise on the JVM), with only 6% using Kotlin Native"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "05",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Advanced Kotlin",
+    "image_url": "https://www.apriorit.com/images/articles/kotlin_vs_java/OG_From_Plain_Boring_Java_to_Exciting_Reactive_Kotlin.jpg",
+    "details": "Variables in Kotlin can be read-only, declared with the val keyword, or mutable, declared with the var keyword. Class members are public by default, and classes themselves are final by default, meaning that creating a derived class is disabled unless the base class is declared with the open keyword. In addition to the classes and member functions (which are equivalent to methods) of object-oriented programming, Kotlin also supports procedural programming with the use of functions.[30] Kotlin functions and constructors support default arguments, variable-length argument lists, named arguments and overloading by unique signature. Class member functions are virtual, i.e. dispatched based on the runtime type of the object they are called on. Kotlin 1.3 added support for contracts,[31] which are stable for the standard library declarations, but still experimental for user-defined declarations. Contracts are inspired by Eiffel's design by contract[32] programming paradigm. According to Kotlin developers, you can call JavaScript code from Kotlin, e.g. write full, type-safe React applications, or write and maintain full-stack web applications sharing validation logic with the frontend, or you can generate libraries from your Kotlin code that can be consumed as modules from any code base written in JavaScript or TypeScript"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "05",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Kotlin crash course",
+    "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDQztsm5GM-KVQ54q7aFc-8skH4mHpjWO51O4ayxvCwQRKqRlV33-F6A2-Gh1EPfT0GsU&usqp=CAU",
+    "details": "Kotlin functions and constructors support default arguments, variable-length argument lists, named arguments and overloading by unique signature. Class member functions are virtual, i.e. dispatched based on the runtime type of the object they are called on. Kotlin 1.3 added support for contracts,[31] which are stable for the standard library declarations, but still experimental for user-defined declarations. Contracts are inspired by Eiffel's design by contract[32] programming paradigm. According to Kotlin developers, you can call JavaScript code from Kotlin, e.g. write full, type-safe React applications, or write and maintain full-stack web applications sharing validation logic with the frontend, or you can generate libraries from your Kotlin code that can be consumed as modules from any code base written in JavaScript or TypeScript"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "06",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Intro of C++",
+    "image_url": "https://code.visualstudio.com/assets/docs/languages/cpp/msg-intellisense.png",
+    "details": "C++ (pronounced C plus plus) is a high-level general-purpose programming language created by Danish computer scientist Bjarne Stroustrup as an extension of the C programming language, or C with Classes. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.[11] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[11] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes). C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20).[13] The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language; he wanted an efficient and flexible language similar to C that also provided high-level features for program organization.[14] Since 2012, C++ has been on a three-year release schedule[15] with C++23 as the next planned standard"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "06",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "C++ crash course",
+    "image_url": "https://images.idgesg.net/images/article/2019/03/c-plus-plus_code-100790020-large.jpg?auto=webp&quality=85,70",
+    "details": "The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.[11] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[11] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications "
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "06",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Happy Learning",
+    "image_url": "https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648",
+    "details": "According to Stroustrup, the name signifies the evolutionary nature of the changes from C.[28] This name is credited to Rick Mascitti (mid-1983)[19] and was first used in December 1983. When Mascitti was questioned informally in 1992 about the naming, he indicated that it was given in a tongue-in-cheek spirit. The name comes from C's ++ operator (which increments the value of a variable) and a common naming convention of using + to indicate an enhanced computer program. During C++'s development period, the language had been referred to as new C and C with Classes before acquiring its final name."
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "06",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Easy way to C++",
+    "image_url": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1080335/retina_1708x683_cover-0325-LearnCandC__Languages_Dan_Newsletter-743100f051077054fa1cc613ff4523a2.png",
+    "details": "The C++ language has two main components: a direct mapping of hardware features provided primarily by the C subset, and zero-overhead abstractions based on those mappings. Stroustrup describes C++ as a light-weight abstraction programming language [designed] for building and using efficient and elegant abstractions;[11] and offering both hardware access and abstraction is the basis of C++. Doing it efficiently is what distinguishes it from other languages. C++ inherits most of C's syntax. The following is Bjarne Stroustrup's version of the Hello world program that uses the C++ Standard Library stream facility to write a message to standard output"
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "06",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "How to learn C++",
+    "image_url": "https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_CPP.jpg",
+    "details": "Static storage duration objects are created before main() is entered (see exceptions below) and destroyed in reverse order of creation after main() exits. The exact order of creation is not specified by the standard (though there are some rules defined below) to allow implementations some freedom in how to organize their implementation. More formally, objects of this type have a lifespan that shall last for the duration of the program Static storage duration objects are initialized in two phases. First, static initialization is performed, and only after all static initialization is performed, dynamic initialization is performed. In static initialization, all objects are first initialized with zeros; after that, all objects that have a constant initialization phase are initialized with the constant expression (i.e. variables initialized with a literal or constexpr). Though it is not specified in the standard, the static initialization phase can be completed at compile time and saved in the data partition of the executable. Dynamic initialization involves all object initialization done via a constructor or function call (unless the function is marked with constexpr, in C++11). The dynamic initialization order is defined as the order of declaration within the compilation unit (i.e. the same file). No guarantees are provided about the order of initialization between compilation units."
+  },
+  {
+    "_id": "61f9ce168f7b15aadecb1d1fc80c72f0",
+    "course_id": "06",
+    "rating": { "number": 4.5, "badge": "Excellent" },
+    "total_view": 100,
+    "title": "Basic C++",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png",
+    "details": "It is almost always implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM, so it is available on many platforms. C++ was designed with systems programming and embedded, resource-constrained software and large systems in mind, with performance, efficiency, and flexibility of use as its design highlights.[11] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[11] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes). C++ is standardized by the International Organization for Standardization (ISO), with the latest standard version ratified and published by ISO in December 2020 as ISO/IEC 14882:2020 (informally known as C++20).[13] The C++ programming language was initially standardized in 1998 as ISO/IEC 14882:1998, which was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library. Before the initial standardization in 1998, C++ was developed by Stroustrup at Bell Labs since 1979 as an extension of the C language"
+  }
+  
+]
